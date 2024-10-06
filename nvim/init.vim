@@ -1,4 +1,3 @@
-set wildmenu
 syntax on 
 set ttyfast
 set number
@@ -24,8 +23,11 @@ set clipboard=unnamedplus
 set termguicolors
 set colorcolumn=79
 set textwidth=79
+set wildoptions-=pum
+set completeopt=menuone,noinsert,noselect
+set completeopt+=menuone
+set wildmode=longest:full,full
 
-" Function to get the full mode name
 function! GetMode()
   let l:mode = mode()
   return l:mode ==# 'n'  ? '-- NORMAL --' :

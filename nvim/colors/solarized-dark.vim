@@ -29,3 +29,6 @@ hi VisualNOS    guibg=#000000 gui=bold,underline cterm=underline
 hi Identifier guifg=#719e07 gui=bold
 hi MatchParen cterm=reverse ctermbg=NONE ctermfg=NONE guibg=NONE guifg=#ffffff
 hi Cursor guibg=NONE guifg=#000000
+hi Pmenu ctermfg=White ctermbg=Blue guifg=White guibg=Blue
+hi PmenuSel ctermfg=Black ctermbg=Yellow guifg=Black guibg=Yellow
+
