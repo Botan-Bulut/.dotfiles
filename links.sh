@@ -1,3 +1,3 @@
-ln -s /home/botan/.dotfiles/nvim /home/botan/.config/nvim
-ln -s /home/botan/.dotfiles/.bashrc /home/botan/.bashrc
-ln -s /home/botan/.dotfiles/.bash_aliases /home/botan/.bash_aliases
+ln -s /home/$USER/.dotfiles/nvim /home/$USER/.config/nvim
+ln -s /home/$USER/.dotfiles/.bashrc /home/$USER/.bashrc
+ln -s /home/$USER/.dotfiles/.bash_aliases /home/$USER/.bash_aliases
