@@ -27,4 +27,4 @@ then
     output=$(printf "%dd %02dh" $days $hours)
 fi
 
-echo "<txt><span>  UP  $output  </span></txt>"
+echo "<txt><span> UP  $output </span></txt>"
