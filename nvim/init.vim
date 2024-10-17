@@ -22,7 +22,6 @@ set showtabline=2
 set clipboard=unnamedplus
 set termguicolors
 set colorcolumn=79
-set textwidth=79
 set cursorline
 set wildoptions-=pum
 set completeopt=menuone,noinsert,noselect
