@@ -1,0 +1,17 @@
+{
+    "editorConfig": {
+        "autoClosingBrackets": true,
+        "highlightActiveLine": true,
+        "indentUnit": "Tab",
+        "rulers": [
+            79
+        ],
+        "customStyles": {
+            "fontFamily": "ubuntu mono",
+            "fontSize": 18,
+            "lineHeight": null
+        }
+    },
+    "scrollPastEnd": true,
+    "toolbar": []
+}

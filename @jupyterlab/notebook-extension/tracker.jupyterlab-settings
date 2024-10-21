@@ -1,0 +1,54 @@
+{
+    "enableKernelInitNotification": true,
+    "codeCellConfig": {
+        "autoClosingBrackets": true,
+        "highlightActiveLine": true,
+        "lineWrap": false,
+        "rulers": [
+            79
+        ],
+        "customStyles": {
+            "fontFamily": "hack",
+            "fontSize": 16,
+            "lineHeight": null
+        }
+    },
+    "defaultCell": "code",
+    "autoStartDefaultKernel": false,
+    "inputHistoryScope": "global",
+    "kernelShutdown": true,
+    "markdownCellConfig": {
+        "matchBrackets": false,
+        "customStyles": {
+            "fontFamily": "inter",
+            "fontSize": 22,
+            "lineHeight": null
+        }
+    },
+    "rawCellConfig": {
+        "autoClosingBrackets": true,
+        "lineNumbers": false,
+        "matchBrackets": false,
+        "rulers": [
+            79
+        ]
+    },
+    "scrollPastEnd": true,
+    "recordTiming": true,
+    "overscanCount": 1,
+    "maxNumberOutputs": 50,
+    "scrollHeadingToTop": true,
+    "showEditorForReadOnlyMarkdown": true,
+    "kernelStatus": {
+        "showOnStatusBar": true,
+        "showProgress": true
+    },
+    "documentWideUndoRedo": false,
+    "showHiddenCellsButton": true,
+    "renderingLayout": "default",
+    "sideBySideLeftMarginOverride": "10px",
+    "sideBySideRightMarginOverride": "10px",
+    "sideBySideOutputRatio": 1,
+    "windowingMode": "full",
+    "accessKernelHistory": false
+}

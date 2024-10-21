@@ -1,0 +1,13 @@
+{
+    "interactionMode": "notebook",
+    "showAllKernelActivity": false,
+    "promptCellConfig": {
+        "autoClosingBrackets": true,
+        "highlightActiveLine": true,
+        "customStyles": {
+            "fontFamily": "hack",
+            "fontSize": 18,
+            "lineHeight": null
+        }
+    }
+}

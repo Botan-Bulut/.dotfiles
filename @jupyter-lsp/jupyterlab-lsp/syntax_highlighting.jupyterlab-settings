@@ -1,0 +1,14 @@
+{
+    // Code Syntax
+    // @jupyter-lsp/jupyterlab-lsp:syntax_highlighting
+    // LSP code syntax highlighting settings.
+    // ***********************************************
+
+    // Disable
+    // Disable this feature. Requires reloading JupyterLab to apply changes.
+    "disable": true,
+
+    // Threshold of foreign code coverage for changing the mode in an editor
+    // If a code editor includes a code fragment in another language (for example a %%markdown magic in IPython) with appropriate foreign code extractor defined, and the extend of this code (coverage of the editor) passes the threshold, the syntax highlighting (i.e. the mode) will change to provide highlighting for the language of the foreign code.
+    "foreignCodeThreshold": 0.5
+}

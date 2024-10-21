@@ -1,0 +1,15 @@
+{
+    "languageServers": {
+        "pylsp": {
+            "rank": 50,
+            "configuration": {}
+        },
+        "pylyzer": {
+            "rank": 50,
+            "configuration": {}
+        }
+    },
+    "activate": "off",
+    "setTrace": "messages",
+    "logAllCommunication": false
+}

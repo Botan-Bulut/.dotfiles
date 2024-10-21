@@ -1,0 +1,18 @@
+{
+    "hiddenMode": "scale",
+    "startMode": "multiple",
+    "layout": {
+        "single": {
+            "Linked Console": {
+                "area": "down"
+            },
+            "Inspector": {
+                "area": "down"
+            },
+            "Cloned Output": {
+                "area": "down"
+            }
+        },
+        "multiple": {}
+    }
+}

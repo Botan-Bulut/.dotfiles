@@ -1,0 +1,25 @@
+{
+    "caseSensitive": false,
+    "continuousHinting": false,
+    "disable": false,
+    "includePerfectMatches": true,
+    "kernelCompletionsFirst": false,
+    "labelExtra": "auto",
+    "layout": "side-by-side",
+    "preFilterMatches": true,
+    "suppressContinuousHintingIn": [
+        "Comment",
+        "BlockComment",
+        "LineComment",
+        "String"
+    ],
+    "suppressTriggerCharacterIn": [
+        "Comment",
+        "BlockComment",
+        "LineComment",
+        "String"
+    ],
+    "theme": "vscode",
+    "typesMap": {},
+    "waitForBusyKernel": false
+}
