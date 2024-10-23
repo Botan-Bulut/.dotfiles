@@ -3,6 +3,7 @@
 # for examples
 export EDITOR=nvim
 export VISUAL=nvim
+export GTK_THEME=Adwaita:dark
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
