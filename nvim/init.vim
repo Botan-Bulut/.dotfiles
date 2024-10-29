@@ -49,7 +49,7 @@ set laststatus=2
 set statusline=%{GetMode()}%=%{&filetype}\ \|\ %{&fileformat}\ \|\ row\ %l,\ col\ %c\ \|\ %p%%\ 
 set noshowmode
 set fillchars=eob:+
-colorscheme monokai 
+colorscheme solarized-dark 
 
 let g:python_highlight_all = 1
 let g:python_highlight_indent_errors = 0
