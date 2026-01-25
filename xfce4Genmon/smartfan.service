@@ -1,0 +1,13 @@
+[Unit]
+Description=Automatic ThinkPad Fan Control
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/smartfan.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
+
