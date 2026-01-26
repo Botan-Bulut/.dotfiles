@@ -9,12 +9,18 @@ while true; do
     CPU_TEMP=$(sensors | awk '/CPU:/ {gsub(/\+|°C/,"",$2); print int($2)}')
 
     # Determine fan level
-    if (( CPU_TEMP <= 40 )); then
+    if (( CPU_TEMP <= 45 )); then
         LEVEL=0
     elif (( CPU_TEMP <= 50 )); then
+        LEVEL=1
+    elif (( CPU_TEMP <= 55 )); then
         LEVEL=2
     elif (( CPU_TEMP <= 60 )); then
+        LEVEL=3
+    elif (( CPU_TEMP <= 65 )); then
         LEVEL=4
+    elif (( CPU_TEMP <= 70 )); then
+        LEVEL=5
     else
         LEVEL=7
     fi
@@ -28,4 +34,3 @@ while true; do
 
     sleep $INTERVAL
 done
-
